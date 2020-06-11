@@ -1,6 +1,7 @@
 <?php
 use person as clsP;
 /* Using alias for the `person` namespcae declared in class-person.php file */
+/* Note: the initial backslash is not there anymore */
 
 require('class-person.php');
 
