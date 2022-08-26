@@ -37,7 +37,7 @@ class Human implements BaseHuman {
 }
 
 $h = new Human();
-/* This human object is an example of `polymorphism`, since it's an instance of the BaseHuman and BaseAnimal at the same time. */
+/* This human object is an example of `polymorphism`, since it's an instance of both BaseHuman and BaseAnimal at the same time. */
 
 echo $h instanceof Animal; /* Returns 0 or false */
 echo "<br>";
