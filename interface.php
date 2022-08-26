@@ -72,7 +72,7 @@ class NewHuman extends AbstractHuman {
 
     public function canTalk() {}
 
-    /* abstract function must be declared, since this class is extending the Abstract class */
+    /* abstract functions must be declared as well, since this class is extending the Abstract class */
     public function run() {}
 }
 
