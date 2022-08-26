@@ -64,6 +64,7 @@ abstract class AbstractHuman implements BaseHuman {
 }
 
 class NewHuman extends AbstractHuman {
+    /* MUST declare here all the functions from the BaseHuman interface, because the AbstractHuman Class implemented the BaseHuman interface */
     public function isAlive() {}
 
     public function canEat($param1, $param2) {}
