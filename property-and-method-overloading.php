@@ -21,7 +21,7 @@ class MotorCycle {
 
 
     /**
-     * Magic method to check if a property's value has been set or not from outside of the Class
+     * Magic method to check from outside of the Class if a property's value has been set or not
      * Whenever any property of the Class is checked by the regular `isset()` function from outside of the Class, the Class will call the magic method `__isset()` function(if it's defined in the Class) to check whether the value is set or not
      */
     public function __isset($name) {
@@ -33,7 +33,7 @@ class MotorCycle {
     }
 
     /**
-     * Magic method to unset/empty a property's value from outside of the Class
+     * Magic method to unset/remove a property from outside of the Class
      * Whenever any property of the Class needs to be removed by the regular `unset()` function from outside of the Class, the Class will call the magic method `__unset()` function(if it's defined in the Class) to do the removal of the property
      */
     public function __unset($name) {
