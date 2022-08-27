@@ -19,7 +19,10 @@ $m = new Planet("Mars");
 
 //$e1->name = "Earth 2";
 
-/* always compare objects with type, `===` should be used instead of `==` */
+/**
+ * Always compare objects along with type, `===` should be used instead of `==` for comparison
+ * Here `$e1` and `$e` objects are not similar, because they are different objects by initialization
+ */
 if($e === $e1) {
     echo "Similar Planets";
 } else {
