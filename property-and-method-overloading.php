@@ -57,6 +57,7 @@ echo $pulsar->displacement;
 echo "<br>";
 
 echo "<br>";
+// check if a undefined property exist
 if( isset($pulsar->tiresize) ) {
     $pulsar->tiresize;
 }
