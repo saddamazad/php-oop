@@ -29,6 +29,7 @@ print_r($fc1);
 echo "<br>";
 print_r($fc2);
 
+// adding new data to the cloned object `$fc2`
 $fc2->setData("More Data");
 echo "<br><br>";
 
