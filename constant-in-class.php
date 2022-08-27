@@ -11,7 +11,7 @@ class MyClass {
     //define ("CITY", "Dhaka");
 
     public function sayHi() {
-        echo "Hi from ".self::CITY."<br>";
+        echo "Hi from ".self::CITY."<br>"; // $this::CITY will also work
     }
 }
 
