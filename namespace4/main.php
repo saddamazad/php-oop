@@ -25,10 +25,13 @@ echo $b->getName();
 
 echo "<br><br>";
 
+
+// initializing object with the class alias
 $h = new Hornet;
 echo $h->getName();
 
 echo "<br>";
 
+// initializing object with the class alias
 $h = new Pulsar;
 echo $h->getName();
