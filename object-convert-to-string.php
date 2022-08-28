@@ -19,6 +19,7 @@ class Color {
 $c = new Color("Red");
 //echo $c; /* This won't work if the `__toString()` magic method is not defined in the class, because objects can't be echoed/printed by default */
 
+
 //echo serialize($c); /* This will work, objects can be serialized and echoed/printed */
 
 
