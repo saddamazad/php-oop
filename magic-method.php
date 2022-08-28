@@ -44,6 +44,7 @@ class Student {
 //echo "<br>";
 
 
+
 $s = new Student("Rahim", 16, "10");
 
 // setting `private` property values using the magic method `__set()`
