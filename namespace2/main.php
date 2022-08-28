@@ -5,7 +5,7 @@ namespace Astronomy;
 include "planet.php";
 include "earth.php";
 
-$planet = new \Astronomy\Planets\Planet(); // Qualified Name
+$planet = new \Astronomy\Planets\Planet(); // Qualified Name, always begis with a `backslash`
 $planet->getName();
 
 echo "<br>";
