@@ -10,7 +10,7 @@ class Color {
         $this->color = $color;
     }
 
-    // magic method to convert an object to string, so that it can be echoed/printed
+    // magic method `__toString()` to convert an object to string, so that it can be echoed/printed
     public function __toString() {
         return "The Color is: {$this->color}";
     }
