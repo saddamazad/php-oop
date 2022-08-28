@@ -18,7 +18,7 @@ spl_autoload_register("autoload");*/
 
 // This autoloading method is used from the PHP 7.2 version
 function autoload($name) {
-    // if we wan't to autoload classes from sub-folder.
+    // if we want to autoload classes from sub-folder.
     if( strpos($name, "Planet_") !== false ) {
 
         $filename = str_replace("Planet_", "", $name);
