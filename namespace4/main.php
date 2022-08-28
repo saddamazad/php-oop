@@ -14,14 +14,15 @@ use \Project\Bike as Pulsar;
 
 
 $b = new Bike(); // Unqualified Name, namespace of `this`(current) file will be pre-fixed here like \Project\
-echo $b->getName();
+echo $b->getName(); /* This will echo "KPR" */
 
 
 /**
  * The below `Bike` Class is loading from the c2.php file and the namespace in the c2.php file is `Project\MotorCycles`
  */
-//$b = new MotorCycles\Bike(); /* Unqualified Name, namespace of `this`(current) file will be pre-fixed here like \Project\ */
-//echo $b->getName(); /* This will echo "Hornet" */
+$b = new MotorCycles\Bike(); /* Unqualified Name, namespace of `this`(current) file will be pre-fixed here like \Project\ */
+echo "<br>".$b->getName(); /* This will echo "Hornet" */
+
 
 echo "<br><br>";
 
