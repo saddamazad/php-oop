@@ -52,7 +52,7 @@ $s->name = "Kamal by `Magic Method`";
 
 /**
  * getting property values using the magic method `__get()`
- * we can access the private properties as well
+ * we can access the `private` properties as well
  */
 echo "Name: ".$s->name."<br>";
 echo "Age: ".$s->age."<br>";
