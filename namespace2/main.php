@@ -10,5 +10,9 @@ $planet->getName();
 
 echo "<br>";
 
+/**
+ * Namespace prefixes the Class name with `\namespace_name\` WHEN `Unqualified Name` is used to initialize an object
+ * In this file the name of the namespace is Astronomy, so it will prefix the Class with `\Astronomy\`
+ */
 $planet = new Planets\Planet(); // Unqualified Name
 $planet->getName();
