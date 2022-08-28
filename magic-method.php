@@ -47,11 +47,11 @@ class Student {
 
 $s = new Student("Rahim", 16, "10");
 
-// setting property values from the magic method __set()
+// setting `private` property values using the magic method `__set()`
 $s->name = "Kamal by `Magic Method`";
 
 /**
- * getting property values from the magic method __get()
+ * getting property values using the magic method `__get()`
  * we can access the private properties as well
  */
 echo "Name: ".$s->name."<br>";
