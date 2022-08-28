@@ -25,7 +25,7 @@ class FavColor {
         $this->color->setColor($color);
     }
 
-    // magic method to clone internal reference objects of an object when the object is cloned
+    // magic method `__clone()` to clone internal reference objects of an object when the object is cloned
     public function __clone() {
         $this->color = clone $this->color;
     }
