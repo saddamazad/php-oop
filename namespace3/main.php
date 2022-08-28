@@ -10,5 +10,5 @@ $pe = new \Astronomy\Planets\Earth(); // Qualified Name, always begins with a `b
 /**
  * Earth Class `extends` the Planet Class, and they both use the SAME namespace `Astronomy\Planets`
  */
-$earth = new Planets\Earth(); // Qualified Name, always begins with a `backslash`
+$earth = new Planets\Earth(); // Unqualified Name
 $earth->getMembership(); // getMembership() function is defined in the parent `Planet` class
