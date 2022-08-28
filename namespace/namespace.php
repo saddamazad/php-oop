@@ -10,7 +10,7 @@ $planet->getName();
 echo "<br>";
 
 /**
- * Namespace prefixes the Class name with `\namespace_name\` WHEN `Unqualified Name` is used to initialize an object
+ * Current file's namespace prefixes the Class name with `\namespace_name\` WHEN `Unqualified Name` is used to initialize an object
  * In this file the name of the namespace is Astronomy, so it will prefix the Class with `\Astronomy\`
  */
 $planet2 = new Planet(); /* This also works, but it's `Unqualified Name` */
