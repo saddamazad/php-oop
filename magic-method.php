@@ -10,12 +10,12 @@ class Student {
         $this->class = $class;
     }
 
-    // magic method/function
+    // magic method/function `__get()`
     public function __get($prop) {
         return $this->$prop;
     }
 
-    // magic method/function
+    // magic method/function `__set()`
     public function __set($prop, $value) {
         $this->$prop = $value;
     }
