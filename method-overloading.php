@@ -46,9 +46,9 @@ class MotorCycle {
         if("wash" == $name) {
             if($arguments) {
                 echo "I'm washing it using {$arguments[0]}";
+            } else {
+                echo "Static Call";
             }
-        } else {
-            echo "Static Call";
         }
     }
 }
