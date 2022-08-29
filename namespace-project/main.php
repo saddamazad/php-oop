@@ -4,8 +4,8 @@ namespace CloudStorage;
 
 include "autoloader.php";
 
-use \CloudStorage\Mail\Mailer; // Qualified Name, `\CloudStorage\Mail\` part is namespace and Mailer is the class name
-use \CloudStorage\FileSystem\Scanner; // Qualified Name, `\CloudStorage\FileSystem\` part is namespace and Scanner is the class name
+use \CloudStorage\Mail\Mailer; // Qualified Name, `\CloudStorage\Mail\` part is the namespace of the Mailer class's file and Mailer is the class name
+use \CloudStorage\FileSystem\Scanner; // Qualified Name, `\CloudStorage\FileSystem\` part is the namespace of the Scanner class's file and Scanner is the class name
 use \CloudStorage\FileSystem\Files\Images\Jpeg;
 
 class Main {
