@@ -52,6 +52,7 @@ echo $cat instanceof Human; /* Returns 0 or false */
 
 echo "<br><br><br>";
 
+
 /**
  * abstract Class can also implement an interface, but it does not require to declare all the functions of the interface like we do for a normal Class.
  */
