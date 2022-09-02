@@ -49,5 +49,5 @@ class SomeClassChild extends SomeClass {
 
 $scc = new SomeClassChild();
 
-// it will call the function from the Trait, NOT from the Class/Parent Class, because when a Class `extends` another Class(`parent`) that overwrites a function from a Trait, the `child` Class will execute the function from the `Trait`
+// it will call the function from the Trait, NOT from the `parent` Class, because when a Class `extends` another Class(`parent`) that overwrites a function from a Trait, the `child` Class will execute the function from the `Trait` {if the function is NOT overwritten by the `child` Class as well}
 $scc->numberSeriesA();
