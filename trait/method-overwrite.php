@@ -4,10 +4,10 @@ trait NumberSeriesOne {
         echo "Number Series A<br>";
 
         /**
-         * useful if any Class `extends` a Class that overwrites this function, then overwritten function from the `parent` Class will be executed instead of the trait
+         * useful if any Class `extends` a Class(`parent`) that overwrites this function, then overwritten function from the `parent` Class will be executed instead of the trait
          * 
          */
-        parent::numberSeriesA();
+        //parent::numberSeriesA();
     }
 
     public function numberSeriesB() {
