@@ -50,6 +50,7 @@ $ns = new NumberSeries();
 //$ns->numberSeriesA();
 $ns->numberSeriesB();
 echo "<br>";
+
 $ns->numberSeriesD();
 echo "<br>";
 $ns->numberSeriesC();
