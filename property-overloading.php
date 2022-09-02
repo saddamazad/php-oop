@@ -22,6 +22,7 @@ class MotorCycle {
 
     /**
      * Magic method `__isset()` to handle undefined properties
+     * 
      * It will be invoked to check from outside of the Class if a property's value has been set or not
      * Whenever any property of the Class is checked by the regular `isset()` function from outside of the Class, the Class will call the magic method `__isset()` function(if it's defined in the Class) to check whether the value is set or not
      */
