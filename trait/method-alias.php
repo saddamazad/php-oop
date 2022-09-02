@@ -18,7 +18,7 @@ class NumberSeries {
     }*/
 
 
-    // call/use the traits, and `alias` the same name methods from multiple traits
+    // call/use the traits, and `alias` the same named methods from multiple traits
     use NumberSeriesOne, NumberSeriesTwo {
         NumberSeriesOne::numberSeriesA as nsA;
         NumberSeriesTwo::numberSeriesA as nsAA;
