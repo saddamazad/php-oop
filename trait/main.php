@@ -51,3 +51,5 @@ $ns = new NumberSeries();
 $ns->numberSeriesB();
 echo "<br>";
 $ns->numberSeriesD();
+echo "<br>";
+$ns->numberSeriesC();
