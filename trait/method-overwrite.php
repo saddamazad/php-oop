@@ -41,6 +41,10 @@ class SomeClass {
 class SomeClassChild extends SomeClass {
     // call/use the traits
     use NumberSeriesOne;
+
+    /*public function numberSeriesA() {
+        echo "SomeClassChild Printing Number Series A<br>";
+    }*/
 }
 
 $scc = new SomeClassChild();
