@@ -34,3 +34,6 @@ $ns = new numberSeries();
 $ns->nsA();
 echo "<br>";
 $ns->nsAA();
+
+echo "<br>";
+$ns->numberSeriesA();
