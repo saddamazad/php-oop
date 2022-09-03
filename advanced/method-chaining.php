@@ -20,6 +20,8 @@ class StringUtility {
         }
 
         $this->string = str_replace($this->search, $string, $this->string);
+        // empty `search` property after a replace done
+        //$this->search = "";
         return $this;
     }
 
