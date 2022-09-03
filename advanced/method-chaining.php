@@ -17,10 +17,10 @@ class StringUtility {
     public function replace($string) {
         if( ! isset($this->search) ) {
             throw new Exception("Nothing to replace");
-        } else {
-            $this->string = str_replace($this->search, $string, $this->string);
-            return $this;
         }
+
+        $this->string = str_replace($this->search, $string, $this->string);
+        return $this;
     }
 
     public function upperCase() {
