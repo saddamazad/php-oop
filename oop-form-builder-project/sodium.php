@@ -4,7 +4,7 @@ class Sodium {
         return new Sodium();
     }
 
-    public function addColumn($columnSize): Sodium { // return type `Sodium`, for method chaining
+    public function addColumn($columnSize): Sodium { // return type `Sodium` object, for method chaining
 
     }
 
