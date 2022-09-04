@@ -4,7 +4,7 @@ class Sodium {
         return new Sodium();
     }
 
-    public function addColumn($columnSize): Sodium { // return type `Sodium` object, for method chaining
+    public function addColumn($columnSize): Sodium { // return type `Sodium` object instance, for method chaining
 
     }
 
@@ -17,11 +17,11 @@ class Sodium {
 }
 
 class FieldFactory {
-    static public function createTextField(): FieldInterface { // return type `FieldInterface` instance
+    static public function createTextField(): FieldInterface { // return type `FieldInterface` object instance
 
     }
 
-    static public function createRadio(): FieldInterface { // return type `FieldInterface` instance
+    static public function createRadio(): FieldInterface { // return type `FieldInterface` object instance
 
     }
 }
