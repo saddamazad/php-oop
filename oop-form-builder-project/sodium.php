@@ -17,11 +17,11 @@ class Sodium {
 }
 
 class FieldFactory {
-    static public function createTextField(): FieldInterface { // return type `FieldInterface`
+    static public function createTextField(): FieldInterface { // return type `FieldInterface` instance
 
     }
 
-    static public function createRadio(): FieldInterface { // return type `FieldInterface`
+    static public function createRadio(): FieldInterface { // return type `FieldInterface` instance
 
     }
 }
