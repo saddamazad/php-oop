@@ -8,7 +8,7 @@ class Sodium {
 
     }
 
-    // take unlimited params as arguments, parameter should be of `FieldInterface` type
+    // take UNLIMITED params as arguments, parameter should be of `FieldInterface` type
     public function addFields(FieldInterface ...$fields): Sodium {
 
     }
