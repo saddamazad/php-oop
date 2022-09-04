@@ -1,6 +1,6 @@
 <?php
 class Sodium {
-    static public function addForm($id): Sodium {
+    static public function addForm($id): Sodium { // return `Sodium` object instance, for method chaining
         return new Sodium();
     }
 
