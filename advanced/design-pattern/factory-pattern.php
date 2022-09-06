@@ -45,7 +45,7 @@ class Car {
     // magic method `__call()` to handle undefined methods/functions
     public function __call($method, $args=null) {
 
-        // replace `get` from {getDisplacement} method-name with empty string and lowercase it to match with our property names
+        // replacing `get` from {getDisplacement} method-name with empty string and lowercase it to match with our property names
         $property = str_replace("get","",strtolower($method));
         
         if( isset($this->{$property}) ) {
