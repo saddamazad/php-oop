@@ -65,7 +65,7 @@ echo "<br><br>";
 echo "<h4>Simplified Process with Factory Pattern</h4>";
 
 
-// simplifying the process to get data from the database
+// simplifying the process to get data from the database by initializing particular Classes and returning the objects
 class CarFactory {
     private $data;
 
