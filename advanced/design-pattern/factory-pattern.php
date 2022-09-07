@@ -1,5 +1,5 @@
 <?php
-// factory pattern simplifies the process of creating another class and returns the object to the user
+// factory pattern simplifies the process of initialization of a class and returns the object to the user
 
 $cars = [
     "nissan" => [
